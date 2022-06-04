@@ -1,0 +1,87 @@
+.app {
+  font-family: "Fraunces", serif;
+}
+
+.header-container2 {
+  background-image: url(./assets/mobile/image-header.jpg);
+  height: 65vh;
+}
+
+.headerContainer-text,
+.testimonials-header {
+  letter-spacing: 0.2em;
+}
+
+.testimonials-header,
+.role, .mobile-nav {
+  color: hsl(210, 4%, 67%);
+}
+
+.apple-image,
+.orange-image {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-image {
+  background-image: url(./assets/mobile/image-graphic-design.jpg);
+  color: hsl(167, 40%, 24%);
+}
+
+.orange-image {
+  background-image: url(./assets/mobile/image-photography.jpg);
+  color: hsl(198, 62%, 26%);
+}
+
+@media (min-width: 768px) {
+  .header-container2 {
+    background-image: url(./assets/desktop/image-header.jpg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .apple-image {
+    background-image: url(./assets/desktop/image-graphic-design.jpg);
+  }
+
+  .orange-image {
+    background-image: url(./assets/desktop/image-photography.jpg);
+  }
+
+  .apple-image,
+  .orange-image {
+    height: 650px;
+  }
+
+  .header-container2 {
+    height: 100vh;
+  }
+}
+
+.grid-text-content,
+.testimonial-text,
+.role,
+.apple-image-text,
+.orange-image-text,
+.nav-link, .footer-links {
+  font-family: "Barlow", sans-serif;
+}
+
+.grid-text-content,
+.testimonial-text {
+  color: hsl(213, 9%, 39%);
+}
+
+.grid-text-header,
+.grid-text-button,
+.author,
+.header-button {
+  color: hsl(212, 27%, 19%);
+}
+
+.footer {
+  background-color: #90d4c5;
+  color:hsl(168, 34%, 41%);
+   
+}
