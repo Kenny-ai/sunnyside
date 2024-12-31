@@ -6,10 +6,12 @@ import DesktopEggImage from "../assets/mobile/image-transform.jpg";
 import DesktopCupImage from "../assets/mobile/image-stand-out.jpg";
 
 const styles = {
-  gridText: "grid-text py-12 px-8 text-center flex flex-col justify-center items-center lg:items-start lg:text-left lg:w-2/3",
+  gridText:
+    "grid-text py-12 px-8 text-center flex flex-col justify-center items-center lg:items-start lg:text-left lg:w-2/3",
   gridTextHeader:
     "grid-text-header text-3xl font-black mb-4 lg:text-4xl xl:text-6xl lg:mb-8",
-  gridTextContent: "grid-text-content text-gray-400 text-lg font-semibold mb-12",
+  gridTextContent:
+    "grid-text-content text-gray-400 text-lg font-semibold mb-12",
   gridTextButton: "grid-text-button uppercase font-black absolute -bottom-2",
   mobileImage: "md:hidden",
   desktopImage: "hidden md:flex md:w-full h-full",
@@ -62,7 +64,7 @@ const Grid = () => {
           </div>
         </div>
 
-        <div className="md:flex">
+        <div className="md:flex lg:w-screen">
           <div className="apple-image text-center flex flex-col justify-end py-16 px-4 lg:w-1/2 lg:items-center">
             <div className="lg:w-1/2">
               <p className="apple-image-header text-3xl font-black mb-4">
